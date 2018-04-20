@@ -1,0 +1,36 @@
+/* $primary-color: red;
+
+.hello {
+    color: $primary-color;
+} */
+
+$width: 100px;
+
+/* p {
+    width: $width;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: $width / -2;
+    outline: 1px solid black;
+}
+*/
+
+.disappear {
+    display: none;
+} 
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+p { /* thing to center */
+    margin: auto;
+}
+  
